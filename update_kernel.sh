@@ -63,5 +63,6 @@ echo "Cleanup..."
 cd ~/src/kernel/
 sudo rm -R ./*
 mkdir -p ~/src/kernel/linux-$original_kernel
+/usr/local/bin/linux-kernel-updater/clean_modules.sh
 echo "Update completed. Reboot when you have time...."
 
